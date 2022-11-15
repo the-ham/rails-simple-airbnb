@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+5.times do
+  Flat.create!(name: "My House", address: "1 Street", description: "sample description", price_per_night: 50, number_of_guests: 4)
+end
